@@ -1,0 +1,4 @@
+SELECT FROM countries
+JOIN languages
+ON languages country_id = countries.id
+WHERE languages = 'Slovene'
